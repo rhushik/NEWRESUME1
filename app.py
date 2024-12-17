@@ -78,8 +78,8 @@ def categorize_resumes(uploaded_files, output_directory):
     results_df = pd.DataFrame(results)
     return results_df
 
-st.title("Resume Categorizer Application")
-st.subheader("With Python & Machine Learning")
+st.title("Resume Multi-class text classification model")
+st.subheader("Assignment for Architech")
 
 uploaded_files = st.file_uploader("Choose PDF files", type="pdf", accept_multiple_files=True)
 output_directory = st.text_input("Output Directory", "categorized_resumes")
